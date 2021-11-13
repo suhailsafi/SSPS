@@ -12,13 +12,14 @@ os.system("cls" if os.name == "nt" else "clear")
 
 #Printing welcome massage.
 welcome_text = """
- ____        _           _ _ ____    _    _____ ___
-/ ___| _   _| |__   __ _(_| / ___|  / \  |  ___|_ _|
-\___ \| | | | '_ \ / _` | | \___ \ / _ \ | |_   | |
- ___) | |_| | | | | (_| | |  ___) / ___ \|  _|  | |
-|____/ \__,_|_| |_|\__,_|_|_|____/_/   \_|_|   |___|
+ ____ ____  ____  ____
+/ ___/ ___||  _ \/ ___|
+\___ \___ \| |_) \___ \
+ ___) ___) |  __/ ___) |
+|____|____/|_|   |____/
 
 """
+
 columns = shutil.get_terminal_size().columns
 print(welcome_text.center(columns))
 print("\n Coded by suhail safi at 2021.")
